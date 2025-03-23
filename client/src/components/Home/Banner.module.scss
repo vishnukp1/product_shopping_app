@@ -1,0 +1,27 @@
+// src/components/Home/Banner.module.scss
+.banner {
+    background-image: url('/images/banner.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.bannerContent {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.shopNow {
+    background: #ff3e6c;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}

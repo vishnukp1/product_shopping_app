@@ -1,0 +1,15 @@
+// src/pages/Home/HomePage.module.scss
+.home {
+    padding: 2rem;
+}
+
+.heading {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
