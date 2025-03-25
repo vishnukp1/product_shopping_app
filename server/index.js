@@ -6,10 +6,11 @@ import productRoutes from "./src/routes/product.js";
 
 dotenv.config();
 connectDB();
-
-const app = express();
+  
+ 
+const app = express();  
 app.use(cors());
-app.use(express.json());
+app.use(express.json());  
 
 app.use("/api/products", productRoutes);
 

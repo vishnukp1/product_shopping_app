@@ -1,4 +1,3 @@
-// src/components/Home/Navbar.js
 import React from 'react';
 import styles from './Navbar.module.scss';
 

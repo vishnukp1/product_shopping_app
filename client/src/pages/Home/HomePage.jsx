@@ -1,6 +1,5 @@
-// src/pages/Home/HomePage.js
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector} from 'react-redux';
 import { fetchProducts } from '../../features/products/productsSlice';
 import Navbar from '../../components/Home/Navbar';
 import Banner from '../../components/Home/Banner';
@@ -10,8 +9,6 @@ import styles from './HomePage.module.scss';
 const HomePage = () => {
     const dispatch = useDispatch();
     const { products, status } = useSelector((state) => state.products);
-
-    console.log(products);
     
 
     useEffect(() => {

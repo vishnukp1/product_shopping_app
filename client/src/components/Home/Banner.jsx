@@ -1,4 +1,3 @@
-// src/components/Home/Banner.js
 import React from 'react';
 import styles from './Banner.module.scss';
 
